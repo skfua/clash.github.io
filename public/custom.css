@@ -1,0 +1,149 @@
+body {
+  font-family: 'Arial';
+}
+
+h1 {
+  display: inline-block;
+}
+
+.layout-main {
+  width: 1600px;
+  margin: 0px auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0px;
+  visibility: hidden;
+}
+
+
+header {
+  width: 100%;
+  background-color: rgb(8, 53, 89);
+  vertical-align: middle;
+
+}
+
+.main_menu{
+  float: left;
+  margin: 0;
+  padding: 10px 0 0 0;
+  vertical-align: middle;
+  list-style: none;
+}
+
+.main_menu li{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: rgb(213, 213, 213);
+}
+
+.main_menu li:first-child{
+  border-bottom: 1px solid white;
+}
+
+.main_menu li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.app-menu {
+  float: right;
+  vertical-align: middle;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+.app-menu li {
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 16px;
+  color: white;
+}
+
+.app-menu li a {
+  display: block;
+  padding: 5px 20px;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 16px;
+  color: white;
+}
+
+.main_info {
+  width: 100%;
+  height: 590px;
+  background-color: rgb(8, 53, 89);
+}
+.home {
+  float: left;
+  width: 600px;
+}
+
+.logo {
+  padding-top: 50px;
+}
+
+.logo-img {
+  transform: scale(1.4);
+}
+
+.tourn_name {
+  display: inline-block;
+  margin-left: 24px;
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -2px 5px 4px rgba(0,0,0,0.4);
+}
+
+.tourn_name span {
+  display: block;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.button-big {
+  margin-top: 40px;
+  padding: 20px 40px;
+  background-color: rgb(236, 161, 17);
+  border: 0px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  box-shadow: -2px 5px 4px rgba(0,0,0,0.4);
+}
+
+.button-big:hover {
+  border: none;
+}
+.button-big:focus {
+  outline: 0;
+}
+.button-big:active{
+  transition: 0.1s linear;
+  box-shadow: none;
+  border: none;
+}
+
+.tourn-info {
+  width: 450px;
+  margin-top: 80px;
+  color: white;
+  font-size: 28px;
+}
+
+.tourn-info span {
+  color: rgb(246, 199, 108);
+}
+
+.iphone-img {
+  float: right;
+  margin-top: 60px;
+  /*transform: scale(1.1);*/
+}
